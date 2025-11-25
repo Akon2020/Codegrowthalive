@@ -1,0 +1,63 @@
+# === Node ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# === Next.js (build output) ===
+.next/
+out/
+build/
+dist/
+.next/static/chunks/*
+.next/cache/*
+
+# === Environment variables ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Logs ===
+logs
+*.log
+*.log.*
+.log
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Editor directories and files ===
+.vscode/
+.idea/
+*.swp
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Testing ===
+coverage/
+jest-cache/
+jest-output/
+test-results/
+
+# === Local uploads/cache (si API Next ou stockage local) ===
+public/uploads/
+uploads/
+tmp/
+
+# === Turbo Repo (si utilisé) ===
+turbo/
+.turbo/
+
+# === Storybook ===
+storybook-static/
+
+# === Tailwind CSS / PostCSS ===
+*.css.map
