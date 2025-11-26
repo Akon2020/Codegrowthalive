@@ -50,7 +50,7 @@ export default function RegisterPage() {
                   <User className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                   <Input
                     id="name"
-                    placeholder="Jean Dupont"
+                    placeholder="Nom Postnom"
                     value={formData.name}
                     onChange={(e) => handleChange("name", e.target.value)}
                     className="pl-9"
@@ -66,7 +66,7 @@ export default function RegisterPage() {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="jean@email.com"
+                    placeholder="email@example.com"
                     value={formData.email}
                     onChange={(e) => handleChange("email", e.target.value)}
                     className="pl-9"
@@ -82,7 +82,7 @@ export default function RegisterPage() {
                   <Input
                     id="phone"
                     type="tel"
-                    placeholder="+33 6 12 34 56 78"
+                    placeholder="+243 987 654 321"
                     value={formData.phone}
                     onChange={(e) => handleChange("phone", e.target.value)}
                     className="pl-9"

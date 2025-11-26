@@ -41,7 +41,7 @@ export default function AdminSettingsPage() {
           </div>
           <div className="grid gap-2">
             <Label htmlFor="phone">Téléphone</Label>
-            <Input id="phone" defaultValue="+33 1 23 45 67 89" />
+            <Input id="phone" defaultValue="+243 987 654 321" />
           </div>
         </div>
       </Card>

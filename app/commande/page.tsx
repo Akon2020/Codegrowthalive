@@ -110,7 +110,7 @@ export default function CommandePage() {
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="country">Pays *</Label>
-                        <Input id="country" defaultValue="France" required />
+                        <Input id="country" defaultValue="Congo - Kinshasa" required />
                       </div>
                     </CardContent>
                   </Card>

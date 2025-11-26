@@ -58,7 +58,7 @@ export default function ContactPage() {
                   </CardHeader>
                   <CardContent className="text-center">
                     <a href="tel:+1234567890" className="text-primary hover:underline">
-                      +33 1 23 45 67 89
+                      +243 987 654 321
                     </a>
                     <p className="text-sm text-muted-foreground mt-1">Lun-Ven 9h-18h</p>
                   </CardContent>
@@ -73,9 +73,9 @@ export default function ContactPage() {
                   </CardHeader>
                   <CardContent className="text-center">
                     <p className="text-sm">
-                      123 Avenue Principale
+                      123 Avenue Maison
                       <br />
-                      75001 Paris, France
+                      75001 Bukavu, RDC
                     </p>
                   </CardContent>
                 </Card>
@@ -118,22 +118,22 @@ export default function ContactPage() {
                         <div className="grid gap-4 sm:grid-cols-2">
                           <div className="space-y-2">
                             <Label htmlFor="firstName">Prénom *</Label>
-                            <Input id="firstName" placeholder="Jean" required />
+                            <Input id="firstName" placeholder="Firstname" required />
                           </div>
                           <div className="space-y-2">
                             <Label htmlFor="lastName">Nom *</Label>
-                            <Input id="lastName" placeholder="Dupont" required />
+                            <Input id="lastName" placeholder="Lastname" required />
                           </div>
                         </div>
 
                         <div className="space-y-2">
                           <Label htmlFor="email">Email *</Label>
-                          <Input id="email" type="email" placeholder="jean.dupont@example.com" required />
+                          <Input id="email" type="email" placeholder="email@example.com" required />
                         </div>
 
                         <div className="space-y-2">
                           <Label htmlFor="phone">Téléphone</Label>
-                          <Input id="phone" type="tel" placeholder="+33 6 12 34 56 78" />
+                          <Input id="phone" type="tel" placeholder="+243 987 654 321" />
                         </div>
 
                         <div className="space-y-2">
@@ -176,7 +176,7 @@ export default function ContactPage() {
                   <div>
                     <h2 className="text-3xl font-bold mb-4">Visitez-nous</h2>
                     <p className="text-muted-foreground mb-6">
-                      Notre bureau est situé au cœur de Paris. N'hésitez pas à prendre rendez-vous pour discuter de
+                      Notre bureau est situé au cœur de Bukavu. N'hésitez pas à prendre rendez-vous pour discuter de
                       votre projet autour d'un café.
                     </p>
                   </div>
@@ -187,7 +187,7 @@ export default function ContactPage() {
                       <div className="absolute inset-0 flex items-center justify-center">
                         <div className="text-center space-y-2">
                           <MapPin className="h-12 w-12 text-primary mx-auto" />
-                          <p className="text-sm text-muted-foreground">123 Avenue Principale, 75001 Paris</p>
+                          <p className="text-sm text-muted-foreground">123 Avenue Maison, 75001 Bukavu</p>
                         </div>
                       </div>
                     </div>

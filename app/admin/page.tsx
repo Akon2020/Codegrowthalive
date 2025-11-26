@@ -16,7 +16,7 @@ export default function AdminDashboard() {
       client: "Style Plus",
       status: "En cours",
       progress: 75,
-      agent: "Jean Dupont",
+      agent: "Anonymous User",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export default function AdminDashboard() {
       client: "FinTech Corp",
       status: "En cours",
       progress: 60,
-      agent: "Marie Claire",
+      agent: "Anonymous User",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ export default function AdminDashboard() {
       client: "Data Insights",
       status: "En révision",
       progress: 90,
-      agent: "Pierre Martin",
+      agent: "Anonymous User",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ export default function AdminDashboard() {
       client: "Le Gourmet",
       status: "En cours",
       progress: 45,
-      agent: "Sophie Bernard",
+      agent: "Anonymous User",
     },
   ]
 

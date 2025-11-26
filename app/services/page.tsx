@@ -235,22 +235,22 @@ export default function ServicesPage() {
                   <div className="grid gap-4 sm:grid-cols-2">
                     <div className="space-y-2">
                       <Label htmlFor="firstName">Prénom *</Label>
-                      <Input id="firstName" placeholder="Jean" required />
+                      <Input id="firstName" placeholder="Firstname" required />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="lastName">Nom *</Label>
-                      <Input id="lastName" placeholder="Dupont" required />
+                      <Input id="lastName" placeholder="Lastname" required />
                     </div>
                   </div>
 
                   <div className="space-y-2">
                     <Label htmlFor="email">Email *</Label>
-                    <Input id="email" type="email" placeholder="jean.dupont@example.com" required />
+                    <Input id="email" type="email" placeholder="email@example.com" required />
                   </div>
 
                   <div className="space-y-2">
                     <Label htmlFor="phone">Téléphone</Label>
-                    <Input id="phone" type="tel" placeholder="+33 6 12 34 56 78" />
+                    <Input id="phone" type="tel" placeholder="+243 987 654 321" />
                   </div>
 
                   <div className="space-y-2">
