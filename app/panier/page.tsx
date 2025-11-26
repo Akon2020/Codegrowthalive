@@ -21,7 +21,7 @@ export default function PanierPage() {
       <ThemeProvider>
         <div className="flex min-h-screen flex-col">
           <main className="flex-1 flex items-center justify-center py-20">
-            <div className="container px-4 text-center space-y-6">
+            <div className="content-wrapper px-4 text-center space-y-6">
               <div className="h-24 w-24 rounded-full bg-muted flex items-center justify-center mx-auto">
                 <ShoppingBag className="h-12 w-12 text-muted-foreground" />
               </div>
@@ -47,7 +47,7 @@ export default function PanierPage() {
       <div className="flex min-h-screen flex-col">
 
         <main className="flex-1 py-12 md:py-20">
-          <div className="container px-4">
+          <div className="content-wrapper px-4">
             <div className="mb-8">
               <h1 className="text-3xl font-bold mb-2">Panier</h1>
               <p className="text-muted-foreground">

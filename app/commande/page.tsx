@@ -44,7 +44,7 @@ export default function CommandePage() {
       <div className="flex min-h-screen flex-col">
 
         <main className="flex-1 py-12 md:py-20">
-          <div className="container px-4">
+          <div className="content-wrapper px-4">
             <div className="mb-8">
               <Button variant="ghost" asChild className="mb-4">
                 <Link href="/panier">

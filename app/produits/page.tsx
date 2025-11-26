@@ -12,7 +12,7 @@ export default function ProduitsPage() {
         <main className="flex-1">
           {/* Hero */}
           <section className="relative border-b bg-gradient-to-br from-background via-background to-primary/5">
-            <div className="container px-4 py-20 md:py-28">
+            <div className="content-wrapper px-4 py-20 md:py-28">
               <div className="mx-auto max-w-3xl text-center space-y-6">
                 <Badge variant="secondary">
                   <Package className="mr-1 h-3 w-3" />
@@ -31,7 +31,7 @@ export default function ProduitsPage() {
 
           {/* Stats */}
           <section className="border-b bg-muted/30">
-            <div className="container px-4 py-12">
+            <div className="content-wrapper px-4 py-12">
               <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
                 <div className="text-center space-y-2">
                   <div className="text-3xl md:text-4xl font-bold text-primary">50+</div>
@@ -55,7 +55,7 @@ export default function ProduitsPage() {
 
           {/* Products */}
           <section className="py-20">
-            <div className="container px-4">
+            <div className="content-wrapper px-4">
               <Tabs defaultValue="all" className="space-y-8">
                 <TabsList className="flex-wrap h-auto gap-2">
                   <TabsTrigger value="all">Tous les Produits</TabsTrigger>
@@ -90,7 +90,7 @@ export default function ProduitsPage() {
 
           {/* Features */}
           <section className="py-20 border-t bg-muted/30">
-            <div className="container px-4">
+            <div className="content-wrapper px-4">
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold mb-4">Pourquoi Choisir Nos Produits ?</h2>
               </div>

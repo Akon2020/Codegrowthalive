@@ -125,7 +125,7 @@ export default function BlogPage() {
         <main className="flex-1">
           {/* Hero */}
           <section className="relative border-b bg-gradient-to-br from-background via-background to-primary/5">
-            <div className="container px-4 py-20 md:py-28">
+            <div className="content-wrapper px-4 py-20 md:py-28">
               <div className="mx-auto max-w-3xl text-center space-y-6">
                 <Badge variant="secondary">
                   <TrendingUp className="mr-1 h-3 w-3" />
@@ -148,7 +148,7 @@ export default function BlogPage() {
 
           {/* Categories */}
           <section className="border-b bg-muted/30">
-            <div className="container px-4 py-6">
+            <div className="content-wrapper px-4 py-6">
               <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-none">
                 {categories.map((category) => (
                   <Button key={category} variant="ghost" size="sm" className="shrink-0">
@@ -161,7 +161,7 @@ export default function BlogPage() {
 
           {/* Featured Post */}
           <section className="py-12 md:py-16">
-            <div className="container px-4">
+            <div className="content-wrapper px-4">
               <div className="mb-6">
                 <h2 className="text-2xl font-bold">Article en vedette</h2>
               </div>
@@ -216,7 +216,7 @@ export default function BlogPage() {
 
           {/* Recent Posts */}
           <section className="py-12 md:py-16 border-t">
-            <div className="container px-4">
+            <div className="content-wrapper px-4">
               <div className="mb-8">
                 <h2 className="text-2xl font-bold">Articles récents</h2>
               </div>
@@ -275,7 +275,7 @@ export default function BlogPage() {
 
           {/* Newsletter */}
           <section className="py-20 border-t bg-primary text-primary-foreground">
-            <div className="container px-4">
+            <div className="content-wrapper px-4">
               <div className="mx-auto max-w-2xl text-center space-y-6">
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-balance">Restez Informé</h2>
                 <p className="text-lg opacity-90 text-pretty">

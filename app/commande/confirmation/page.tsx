@@ -13,7 +13,7 @@ export default function ConfirmationPage() {
         <SiteHeader />
 
         <main className="flex-1 flex items-center justify-center py-20">
-          <div className="container px-4">
+          <div className="content-wrapper px-4">
             <Card className="max-w-2xl mx-auto">
               <CardContent className="pt-12 pb-8 text-center space-y-8">
                 <div className="h-20 w-20 rounded-full bg-green-100 dark:bg-green-900/20 flex items-center justify-center mx-auto">
