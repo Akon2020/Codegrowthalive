@@ -1,5 +1,3 @@
-import { SiteHeader } from "@/components/site-header"
-import { SiteFooter } from "@/components/site-footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -123,7 +121,6 @@ export default function BlogPage() {
   return (
     <ThemeProvider>
       <div className="flex min-h-screen flex-col">
-        <SiteHeader />
 
         <main className="flex-1">
           {/* Hero */}
@@ -293,7 +290,6 @@ export default function BlogPage() {
           </section>
         </main>
 
-        <SiteFooter />
       </div>
     </ThemeProvider>
   )

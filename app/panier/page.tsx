@@ -1,7 +1,5 @@
 "use client"
 
-import { SiteHeader } from "@/components/site-header"
-import { SiteFooter } from "@/components/site-footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -22,7 +20,6 @@ export default function PanierPage() {
     return (
       <ThemeProvider>
         <div className="flex min-h-screen flex-col">
-          <SiteHeader />
           <main className="flex-1 flex items-center justify-center py-20">
             <div className="container px-4 text-center space-y-6">
               <div className="h-24 w-24 rounded-full bg-muted flex items-center justify-center mx-auto">
@@ -40,7 +37,6 @@ export default function PanierPage() {
               </Button>
             </div>
           </main>
-          <SiteFooter />
         </div>
       </ThemeProvider>
     )
@@ -49,7 +45,6 @@ export default function PanierPage() {
   return (
     <ThemeProvider>
       <div className="flex min-h-screen flex-col">
-        <SiteHeader />
 
         <main className="flex-1 py-12 md:py-20">
           <div className="container px-4">
@@ -195,7 +190,6 @@ export default function PanierPage() {
           </div>
         </main>
 
-        <SiteFooter />
       </div>
     </ThemeProvider>
   )

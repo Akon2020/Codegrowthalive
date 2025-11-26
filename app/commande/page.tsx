@@ -3,8 +3,6 @@
 import type React from "react"
 
 import { useState } from "react"
-import { SiteHeader } from "@/components/site-header"
-import { SiteFooter } from "@/components/site-footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -44,7 +42,6 @@ export default function CommandePage() {
   return (
     <ThemeProvider>
       <div className="flex min-h-screen flex-col">
-        <SiteHeader />
 
         <main className="flex-1 py-12 md:py-20">
           <div className="container px-4">
@@ -272,7 +269,6 @@ export default function CommandePage() {
           </div>
         </main>
 
-        <SiteFooter />
       </div>
     </ThemeProvider>
   )
