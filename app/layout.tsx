@@ -10,7 +10,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "CGA - Code, Growth, Alive | Solutions Digitales Innovantes",
+  title: "CGA - Code, Growth Alive | Solutions Digitales Innovantes",
   description:
     "CGA offre des services de développement web, applications mobiles, maintenance, consultation et solutions digitales innovantes pour transformer votre business.",
   keywords: ["développement web", "applications mobiles", "solutions digitales", "consulting IT", "maintenance web"],
