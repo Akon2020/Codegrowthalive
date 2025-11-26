@@ -92,7 +92,7 @@ export function ProjectModal({ open, onOpenChange, project, mode }: ProjectModal
             <div className="space-y-2">
               <Label htmlFor="status">Statut</Label>
               <Select value={formData.status} onValueChange={(value) => setFormData({ ...formData, status: value })}>
-                <SelectTrigger id="status">
+                <SelectTrigger id="status" className="w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -110,7 +110,7 @@ export function ProjectModal({ open, onOpenChange, project, mode }: ProjectModal
                 value={formData.priority}
                 onValueChange={(value) => setFormData({ ...formData, priority: value })}
               >
-                <SelectTrigger id="priority">
+                <SelectTrigger id="priority" className="w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>

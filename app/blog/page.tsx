@@ -149,7 +149,7 @@ export default function BlogPage() {
           {/* Categories */}
           <section className="border-b bg-muted/30">
             <div className="content-wrapper px-4 py-6">
-              <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-none">
+              <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-none justify-center">
                 {categories.map((category) => (
                   <Button key={category} variant="ghost" size="sm" className="shrink-0">
                     {category}

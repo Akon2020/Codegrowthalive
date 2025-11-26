@@ -102,7 +102,7 @@ export function ClientModal({ open, onOpenChange, client, mode }: ClientModalPro
           <div className="space-y-2">
             <Label htmlFor="status">Statut</Label>
             <Select value={formData.status} onValueChange={(value) => setFormData({ ...formData, status: value })}>
-              <SelectTrigger id="status">
+              <SelectTrigger id="status" className="w-full">
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>
