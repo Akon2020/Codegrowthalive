@@ -144,7 +144,7 @@ export default function ContactPage() {
                         <div className="space-y-2">
                           <Label htmlFor="subject">Sujet *</Label>
                           <Select>
-                            <SelectTrigger id="subject">
+                            <SelectTrigger id="subject" className="w-full">
                               <SelectValue placeholder="Sélectionnez un sujet" />
                             </SelectTrigger>
                             <SelectContent>
